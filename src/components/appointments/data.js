@@ -1,0 +1,42 @@
+export default [
+  {
+    key: "1",
+    doctor: "Mike Towers",
+    specialty: "Medicina general",
+    patient: "Nicolás Pérez",
+    status: "SCHEDULED",
+    date: "16/12/2020, 9:25 - 9:30",
+  },
+  {
+    key: "2",
+    doctor: "Mike Towers",
+    specialty: "Medicina general",
+    patient: "Nicolás Pérez",
+    status: "SCHEDULED",
+    date: "16/12/2020, 9:25 - 9:30",
+  },
+  {
+    key: "3",
+    doctor: "Mike Towers",
+    specialty: "Medicina general",
+    patient: "Nicolás Pérez",
+    status: "Agendada",
+    date: "16/12/2020, 9:25 - 9:30",
+  },
+  {
+    key: "4",
+    doctor: "Mike Towers",
+    specialty: "Medicina general",
+    patient: "Nicolás Pérez",
+    status: "Agendada",
+    date: "16/12/2020, 9:25 - 9:30",
+  },
+  {
+    key: "5",
+    doctor: "Mike Towers",
+    specialty: "Medicina general",
+    patient: "Nicolás Pérez",
+    status: "Agendada",
+    date: "16/12/2020, 9:25 - 9:30",
+  },
+];

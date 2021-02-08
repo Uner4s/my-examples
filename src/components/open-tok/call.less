@@ -1,0 +1,128 @@
+@import "~antd/es/style/themes/default.less";
+
+.connectionStatus {
+  margin-left: 5%;
+  padding-top: 20px;
+  font-size: 1.5em;
+}
+
+.error {
+  color: red;
+}
+
+.card {
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  cursor: auto;
+}
+
+.publisherCard {
+  position: absolute;
+}
+
+.card div:first-child {
+  height: 100%;
+}
+
+.upload {
+  z-index: 100;
+  color: white;
+  background-color: rgba(47, 84, 235, 0);
+  border: 1px solid white;
+}
+
+.upload:hover {
+  color: white;
+  background-color: #2f54eb;
+  border: 1px solid white;
+}
+
+.upload:focus {
+  color: white;
+  background-color: #2f54eb;
+  border: 1px solid white;
+}
+
+.expand {
+  z-index: 100;
+  color: white;
+  background-color: rgba(47, 84, 235, 0);
+  border: 1px solid white;
+}
+
+.expand:hover {
+  color: white;
+  background-color: #652785;
+  border: 1px solid white;
+}
+
+.expand:focus {
+  color: white;
+  background-color: #652785;
+  border: 1px solid white;
+}
+
+.endCall {
+  z-index: 100;
+  color: white;
+  background-color: rgba(47, 84, 235, 0);
+  border: 1px solid white;
+}
+
+.endCall:hover {
+  color: white;
+  background-color: #ff3e31;
+  border: 1px solid white;
+}
+
+.endCall:focus {
+  color: white;
+  background-color: #ff3e31;
+  border: 1px solid white;
+}
+
+.uploadFiles {
+  color: rgba(255, 255, 255, 0.42);
+  background-color: rgba(47, 84, 235, 0);
+  border: 0;
+}
+
+.uploadFiles:hover {
+  color: white;
+  background-color: rgba(47, 84, 235, 0);
+  border: 0;
+}
+
+.uploadFiles:focus {
+  color: white;
+  background-color: rgba(47, 84, 235, 0);
+  border: 0;
+}
+
+.uploadList {
+  :global {
+    .ant-upload-list-text {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      text-align: left;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    .ant-upload-list-item {
+      width: 130px;
+      margin-top: 0;
+      font-size: small;
+      line-height: 1px;
+      text-align: left;
+      border-radius: 5px;
+    }
+  }
+}
+
+.spin {
+  z-index: 0 !important;
+  max-height: 100% !important;
+  background-color: #000;
+}
